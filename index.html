@@ -14,11 +14,17 @@
 
         <header>    <!-- header "il mio viaggio a Londra" + 3 pics + hr-->
 
-          <h1>Il mio Viaggio a Londra</h1>
-          <img src="img/pexels-bill-emrich-230794-0.jpg" alt="pexels-bill-emrich-230794-0">
-          <img src="img/pexels-bill-emrich-230794-1.jpg" alt="pexels-bill-emrich-230794-2">
-          <img src="img/pexels-bill-emrich-230794-2.jpg" alt="pexels-bill-emrich-230794-3">
-          <hr>
+            <h1>Il mio Viaggio a Londra</h1>
+
+            <div> 
+    <!--correzione Sam: era meglio mettere le img in un div per poter dare poi stile in CSS a tutte e tre-->
+                <img src="img/pexels-bill-emrich-230794-0.jpg" alt="pexels-bill-emrich-230794-0">
+                <img src="img/pexels-bill-emrich-230794-1.jpg" alt="pexels-bill-emrich-230794-2">
+                <img src="img/pexels-bill-emrich-230794-2.jpg" alt="pexels-bill-emrich-230794-3">
+                
+            </div>
+
+            <hr>
 
         </header>   <!-- /header "il mio viaggio a Londra" + 3 pics + hr-->
 
@@ -85,11 +91,12 @@
 
                 <h3>Cose da Fare</h3>
 
-                <ul>
-                    <li>Visitare la <em>Tower of London</em> <strong>&#10007</strong></li>
-                    <li>Visitare <em>Greenwich</em> <strong>&#10003</strong></li>
-                    <li>Ascoltare un artista di strada a <em>Covent Garden</em> <strong>&#10003</strong></li>
-                    <li>Mangiare il tipico <em>Fish and Chips</em> inglese <strong>&#10007</strong></li>
+                <ul> 
+    <!--correzione w3v: dopo gli entity code va il punto e virgola-->
+                    <li>Visitare la <em>Tower of London</em> <strong>&#10007;</strong></li>
+                    <li>Visitare <em>Greenwich</em> <strong>&#10003;</strong></li>
+                    <li>Ascoltare un artista di strada a <em>Covent Garden</em> <strong>&#10003;</strong></li>
+                    <li>Mangiare il tipico <em>Fish and Chips</em> inglese <strong>&#10007;</strong></li>
                 </ul>
 
                 <hr>
@@ -103,27 +110,28 @@
 
                 <ol>
 
-                    <li>Numeri utili di emergenza</li>
-
+    <!--correzione w3v/Sam: un <ul> può stare dentro un <ol> solo se lo mettiamo dentro il <li> relativo-->
+                    <li>Numeri utili di emergenza
                         <ul>
                             <li><strong>999</strong> - Emergenza</li>
                             <li><strong>101</strong> - Numero polizia</li>
                             <li><strong>111</strong> - Numero assistenza medica</li>
                         </ul>
+                    </li>
 
-                    <li>Hotel</li>
-
+                    <li>Hotel
                         <ul>
                             <li><strong>Nome hotel:</strong> Buckingham Palace</li>
                             <li><strong>Indirizzo hotel:</strong> Westminster, London SW1A 1AA, Regno Unito</li>
                         </ul>
+                    </li>
 
-                    <li>Aereo</li>
-
+                    <li>Aereo
                         <ul>
                             <li><strong>Volo di Andata:</strong>YI234X, ore 9.30 da Milano Malpensa</li>
                             <li><strong>Volo di Ritorno:</strong>YI236X, ore 18.30 da London Heathrow</li>
                         </ul>
+                    </li>
 
                 </ol>
 
@@ -158,7 +166,7 @@
     </body>
 
     
-            <!-- per Samuele: so che avevi detto di mettere le 2 foto come footer, ma ho voluto provare ad inserire un link ;-) -->
+    <!-- per Samuele: so che avevi detto di mettere le 2 foto come footer, ma ho voluto provare ad inserire un link ;-) -->
 
 
 </html>
